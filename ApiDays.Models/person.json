@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "firstName": { "type": "string" },
+        "lastName": { "type": "string" },
+        "otherNames": { "$ref":  "#/$defs/othernames"}
+    },
+    "required": [ "lastName" ],
+    "$defs": {
+        "othernames": {
+            "oneOf": [
+                { "type": "string" },
+                {
+                    "type": "array",
+                    "items": { "type": "string" }
+                }
+            ]
+        }
+    }
+}

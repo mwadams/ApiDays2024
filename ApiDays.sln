@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDays.Models", "ApiDays.Models\ApiDays.Models.csproj", "{D6B473D5-D5DB-49D1-87D4-8E7E55B8E9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDays.Sandbox", "ApiDays.Sandbox\ApiDays.Sandbox.csproj", "{EF8B1EF9-A202-45DE-8882-CBB148FB2946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B473D5-D5DB-49D1-87D4-8E7E55B8E9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B473D5-D5DB-49D1-87D4-8E7E55B8E9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B473D5-D5DB-49D1-87D4-8E7E55B8E9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B473D5-D5DB-49D1-87D4-8E7E55B8E9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8B1EF9-A202-45DE-8882-CBB148FB2946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8B1EF9-A202-45DE-8882-CBB148FB2946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8B1EF9-A202-45DE-8882-CBB148FB2946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8B1EF9-A202-45DE-8882-CBB148FB2946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC017B4-6DEB-4CF9-BC89-ED32B8675288}
+	EndGlobalSection
+EndGlobal
